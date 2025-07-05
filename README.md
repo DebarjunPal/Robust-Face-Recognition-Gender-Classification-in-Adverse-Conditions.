@@ -10,6 +10,7 @@ This repository provides a robust solution for **Face Recognition** and **Gender
 - [Project Architecture](#project-architecture)
 - [Installation](#installation)
 - [Pretrained Model Weights](#pretrained-model-weights)
+- [Training & validation results](#Training-&-validation-results)
 - [Folder Structure](#folder-structure)
 - [Citation](#citation)
 - [License](#license)
@@ -98,10 +99,22 @@ Below is the high-level flow diagram of the solution:
 
 Download pretrained weights from the following sources:
 
-- **Face Recognition Model**: [download link or path]
-- **Gender Classification Model**: [download link or path]
+- **Gender Classification Model**: [Gender_Classification_(Binary).ipynb]
 
-Place all downloaded files in the `models/` directory.
+All downloaded files are in the `models/` directory.
+
+---
+
+## Training & validation results
+
+ precision    recall  f1-score   support
+
+           0       0.78      0.09      0.16        79
+           1       0.83      0.99      0.90       343
+
+    accuracy                           0.82       422
+   macro avg       0.80      0.54      0.53       422
+weighted avg       0.82      0.82      0.76       422
 
 ---
 
