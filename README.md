@@ -1,34 +1,34 @@
-# Robust Face Recognition & Gender Classification in Adverse Conditions
+# Robust Face Recognition & Gender Classification in Adverse Conditions 🧑‍💻🕵️‍♂️
 
-This repository provides a robust solution for **Face Recognition** and **Gender Classification** under challenging conditions such as low resolution, occlusion, and varying illumination. The project leverages deep learning models trained on diverse datasets to ensure high accuracy, and includes all scripts, pretrained weights, and clear instructions for use and extension.
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Project Architecture](#project-architecture)
-- [Installation](#installation)
-- [Pretrained Model Weights](#pretrained-model-weights)
-- [Training & validation results](#Training-&-validation-results)
-- [Folder Structure](#folder-structure)
-- [Citation](#citation)
-- [License](#license)
-- [Contact](#contact)
+This repository provides a robust solution for **Face Recognition** and **Gender Classification** under challenging conditions such as low resolution, occlusion, and varying illumination. The project is designed to be both **modular** and **easy to use** for practitioners and researchers alike.
 
 ---
 
-## Features
+## 📋 Table of Contents
 
-- **Face Recognition**: Identifies individuals from input images.
-- **Gender Classification**: Predicts gender from facial images.
-- **Robust to Adversities**: Handles low-quality, occluded, or poorly-lit images.
-- **Pretrained Models**: Directly usable without retraining.
-- **Well-documented & Modular Code**: Easily extensible and maintainable.
+- [✨ Features](#-features)
+- [🛠️ Project Architecture](#-project-architecture)
+- [🚀 Installation](#-installation)
+- [📦 Pretrained Model Weights](#-pretrained-model-weights)
+- [📊 Training & Validation Results](#-training--validation-results)
+- [📁 Folder Structure](#-folder-structure)
+- [📖 Citation](#-citation)
+- [📝 License](#-license)
+- [📬 Contact](#-contact)
 
 ---
 
-## Project Architecture
+## ✨ Features
+
+- 🧑‍🦰 **Face Recognition**: Identifies individuals from input images.
+- 🚻 **Gender Classification**: Predicts gender from facial images.
+- 🦾 **Robust to Adversities**: Handles low-quality, occluded, or poorly-lit images.
+- 📥 **Pretrained Models**: Directly usable without retraining.
+- 📚 **Well-documented & Modular Code**: Easily extensible and maintainable.
+
+---
+
+## 🛠️ Project Architecture
 
 Below is the high-level flow diagram of the solution:
 
@@ -70,7 +70,7 @@ Below is the high-level flow diagram of the solution:
 
 ---
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository**
 
@@ -94,31 +94,29 @@ Below is the high-level flow diagram of the solution:
 
 ---
 
-
-## Pretrained Model Weights
+## 📦 Pretrained Model Weights
 
 Download pretrained weights from the following sources:
 
 - **Gender Classification Model**: [Gender_Classification_(Binary).ipynb]
 
-All downloaded files are in the `models/` directory.
+All downloaded files are placed in the `models/` directory.
 
 ---
 
-## Training & validation results
+## 📊 Training & Validation Results
 
- precision    recall  f1-score   support
-
-           0       0.78      0.09      0.16        79
-           1       0.83      0.99      0.90       343
-
-    accuracy                           0.82       422
-   macro avg       0.80      0.54      0.53       422
-weighted avg       0.82      0.82      0.76       422
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| **0**     |   0.78    |  0.09  |   0.16   |   79    |
+| **1**     |   0.83    |  0.99  |   0.90   |  343    |
+| **accuracy**   |       |        |   0.82   |  422    |
+| **macro avg**  | 0.80  |  0.54  |   0.53   |  422    |
+| **weighted avg** | 0.82 | 0.82  |   0.76   |  422    |
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
 Robust-Face-Recognition-Gender-Classification-in-Adverse-Conditions/
@@ -126,12 +124,10 @@ Robust-Face-Recognition-Gender-Classification-in-Adverse-Conditions/
 ├── data/
 │   ├── train/
 │   ├── val/
-│  
 │
 ├── models/
 │   ├── face_recognition.py
 │   └── gender_classification.py
-│
 │
 ├── requirements.txt
 ├── README.md
@@ -140,11 +136,11 @@ Robust-Face-Recognition-Gender-Classification-in-Adverse-Conditions/
 
 ---
 
-## Citation
+## 📖 Citation
 
 If you use this work in your research, please cite:
 
-```
+```bibtex
 @misc{robust-face-gender-2025,
   author = {Debarjun Pal},
   title = {Robust Face Recognition & Gender Classification in Adverse Conditions},
@@ -157,12 +153,14 @@ If you use this work in your research, please cite:
 
 ---
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Contact
+## 📬 Contact
 
 For questions or contributions, open an issue or contact [Debarjun Pal](https://github.com/DebarjunPal).
+
+---
